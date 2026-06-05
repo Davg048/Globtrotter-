@@ -1,0 +1,319 @@
+/* ── Reset ── */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    color: #2c2c2c;
+    background-color: #e6cfd2;
+}
+
+/* ── Hero header ── */
+#hero {
+    height: 100vh;
+    background-image: url('../images/japan-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 4rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    letter-spacing: 0.05em;
+}
+
+.hero-tagline {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* ── Sticky navigation ── */
+#main-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #a63d5f;
+    padding: 10px 30px;
+}
+
+#main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+#main-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    padding: 0.25rem 0;
+    border-bottom: 2px solid transparent;
+}
+
+#main-nav a:hover {
+    border-bottom: 2px solid #f5c6d0;
+}
+
+/* ── Main content sections ── */
+main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+main section {
+    margin-bottom: 3rem;
+}
+
+main h2 {
+    font-size: 1.75rem;
+    color: #a63d5f;
+    margin-bottom: 0.75rem;
+    border-bottom: 1px solid #f5c6d0;
+    padding-bottom: 0.4rem;
+}
+
+main p {
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+#facts ul {
+    list-style: none;
+    line-height: 2;
+    font-size: 1rem;
+}
+
+/* ── Photo gallery page ── */
+#gallery-hero {
+    height: 50vh;
+    background-image: url('../images/gallery-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#gallery-hero h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+#gallery-hero .page-intro {
+    font-size: 1.1rem;
+    color: #f5e6ea;
+    margin-top: 0.75rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+}
+
+#gallery-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+/* ── Attractions page ── */
+#attractions-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+
+#attractions {
+    height: 50vh;
+    background-image: url('../images/attractions-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#attractions h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+#attractions .page-intro {
+    font-size: 1.1rem;
+    color: #f5e6ea;
+    margin-top: 0.75rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.75rem;
+}
+
+.card {
+    flex: 1 1 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #d4a5b0;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-body h2 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.2rem;
+    color: #a63d5f;
+    margin-bottom: 0.5rem;
+    border: none;
+    padding: 0;
+}
+
+.card-body p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* ── Food guide page ── */
+#food-guide {
+    height: 50vh;
+    background-image: url('../images/food-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#food-guide h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+#food-guide .page-intro {
+    font-size: 1.1rem;
+    color: #f5e6ea;
+    margin-top: 0.75rem;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#foodguide-page {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.dish {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dish-image-placeholder {
+    width: 280px;
+    min-width: 280px;
+    height: 275px;
+    background-color: #d4a5b0;
+}
+
+.dish-info {
+    padding: 1.5rem;
+}
+
+.dish-info h2 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.4rem;
+    color: #a63d5f;
+    margin-bottom: 0.4rem;
+    border: none;
+    padding: 0;
+}
+
+.traveler-tag {
+    display: inline-block;
+    background-color: #f5c6d0;
+    color: #a63d5f;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.2rem 0.65rem;
+    border-radius: 20px;
+    margin-bottom: 0.6rem;
+}
+
+.dish-address {
+    font-size: 0.875rem;
+    color: #888;
+    font-style: italic;
+    margin-bottom: 0.75rem;
+}
+
+.dish-info p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #444;
+}
+
+.dish-link {
+    display: inline-block;
+    margin-top: 0.85rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #a63d5f;
+    text-decoration: none;
+    border-bottom: 2px solid #f5c6d0;
+}
+
+.dish-link:hover {
+    color: #7a2d47;
+    border-bottom-color: #a63d5f;
+}
+
