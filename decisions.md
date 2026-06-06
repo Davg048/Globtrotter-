@@ -5,6 +5,10 @@
 - Primary audience: Tourists/ people who want to explore a new country
 - One design decision that reflects the destination: Cherry blossoms, and cars maybe
 - Wireframe format used (hand-drawn / Figma / other): Hand drawn
+### Wireframe Sketches
+![Wireframe Page 1](IMG_1045.jpeg)
+![Wireframe Page 2](IMG_1046.jpeg)
+![Wireframe Page 3](IMG_1047.jpeg)
 
 ## Milestone 1: HTML Structure
 _Add entries after building each page._
